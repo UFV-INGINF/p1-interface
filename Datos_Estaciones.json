@@ -1,0 +1,110 @@
+[
+  {
+    "latitud": "400402N",
+    "provincia": "MADRID",
+    "altitud": "540",
+    "indicativo": "3100B",
+    "nombre": "ARANJUEZ",
+    "indsinop": "08229",
+    "longitud": "033246W"
+  },
+  {
+    "latitud": "410025N",
+    "provincia": "MADRID",
+    "altitud": "1030",
+    "indicativo": "3110C",
+    "nombre": "BUITRAGO DEL LOZOYA",
+    "indsinop": "08146",
+    "longitud": "033649W"
+  },
+  {
+    "latitud": "404146N",
+    "provincia": "MADRID",
+    "altitud": "1004",
+    "indicativo": "3191E",
+    "nombre": "COLMENAR VIEJO",
+    "indsinop": "08219",
+    "longitud": "034554W"
+  },
+  {
+    "latitud": "401758N",
+    "provincia": "MADRID",
+    "altitud": "620",
+    "indicativo": "3200",
+    "nombre": "GETAFE",
+    "indsinop": "08224",
+    "longitud": "034320W"
+  },
+  {
+    "latitud": "402800N",
+    "provincia": "MADRID",
+    "altitud": "609",
+    "indicativo": "3129",
+    "nombre": "MADRID AEROPUERTO",
+    "indsinop": "08221",
+    "longitud": "033320W"
+  },
+  {
+    "latitud": "402706N",
+    "provincia": "MADRID",
+    "altitud": "664",
+    "indicativo": "3194U",
+    "nombre": "MADRID, CIUDAD UNIVERSITARIA",
+    "indsinop": "08220",
+    "longitud": "034327W"
+  },
+  {
+    "latitud": "402232N",
+    "provincia": "MADRID",
+    "altitud": "690",
+    "indicativo": "3196",
+    "nombre": "MADRID, CUATRO VIENTOS",
+    "indsinop": "08223",
+    "longitud": "034710W"
+  },
+  {
+    "latitud": "402443N",
+    "provincia": "MADRID",
+    "altitud": "667",
+    "indicativo": "3195",
+    "nombre": "MADRID, RETIRO",
+    "indsinop": "08222",
+    "longitud": "034041W"
+  },
+  {
+    "latitud": "404223N",
+    "provincia": "MADRID",
+    "altitud": "1532",
+    "indicativo": "3266A",
+    "nombre": "PUERTO ALTO DEL LEÓN",
+    "indsinop": "08217",
+    "longitud": "040831W"
+  },
+  {
+    "latitud": "402540N",
+    "provincia": "MADRID",
+    "altitud": "763",
+    "indicativo": "3338",
+    "nombre": "ROBLEDO DE CHAVELA",
+    "indsinop": "08212",
+    "longitud": "041500W"
+  },
+  {
+    "latitud": "410808N",
+    "provincia": "MADRID",
+    "altitud": "1450",
+    "indicativo": "3111D",
+    "nombre": "SOMOSIERRA",
+    "indsinop": "08145",
+    "longitud": "033449W"
+  },
+  {
+    "latitud": "402919N",
+    "provincia": "MADRID",
+    "altitud": "607",
+    "indicativo": "3175",
+    "nombre": "TORREJÓN DE ARDOZ",
+    "indsinop": "08227",
+    "longitud": "032637W"
+  }
+]
