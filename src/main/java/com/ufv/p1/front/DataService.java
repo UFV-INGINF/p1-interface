@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Objects;
 
 import com.ufv.p1.back.ColmenarViejoCSV;
 import com.ufv.p1.back.DateParser;
@@ -73,4 +74,15 @@ public class DataService implements Serializable {
         return results;
     }
 
+
+    public static ArrayList<ColmenarViejoCSV> opcion2(ArrayList<ColmenarViejoCSV> registros_cv) {
+        ArrayList<ColmenarViejoCSV> results = new ArrayList<>();
+        for (ColmenarViejoCSV registro : registros_cv) {
+            if (Objects.equals(registro.getHoratmin(), "Varias")) {
+                results.add(registro);
+
+            }
+        }
+        return results;
+    }
 }

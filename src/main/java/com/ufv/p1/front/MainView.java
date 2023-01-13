@@ -9,6 +9,8 @@ import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.PWA;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.ArrayList;
+
 /**
  * A sample Vaadin view class.
  * <p>
@@ -45,6 +47,8 @@ public class MainView extends VerticalLayout {
      */
     public MainView(@Autowired DataService service) {
 
+        ArrayList<ColmenarViejoCSV> datosCSV;
+        datosCSV = service.getColmenarViejoCSV();
 
 //        // Use TextField for standard text input
 //        TextField textField = new TextField("Your name");
@@ -68,11 +72,14 @@ public class MainView extends VerticalLayout {
 //        add(textField, button);
 
 
-        Option1 option1Generator = new Option1(service);
+        Option1 option1Generator = new Option1(datosCSV);
         option1Container = new VerticalLayout();
         option1Container.add(option1Generator);
+
+        Option2 option2Generator = new Option2(datosCSV);
         option2Container = new VerticalLayout();
-        option2Container.add("Option2 selected");
+        option2Container.add(option2Generator);
+
         option3Container = new VerticalLayout();
         option4Container = new VerticalLayout();
 

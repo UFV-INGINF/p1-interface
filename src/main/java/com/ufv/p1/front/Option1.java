@@ -16,15 +16,15 @@ import java.util.Collections;
 public class Option1 extends VerticalLayout {
 
     ArrayList<ColmenarViejoCSV> datosCSV;
+
     HorizontalLayout params = new HorizontalLayout();
     VerticalLayout results = new VerticalLayout();
 
 
 
-    public Option1(@Autowired DataService dataService) {
+    public Option1(@Autowired ArrayList<ColmenarViejoCSV> datosCSV) {
 
-        this.datosCSV = dataService.getColmenarViejoCSV();
-
+        this.datosCSV = datosCSV;
         DatePickerWithPattern startDate = new DatePickerWithPattern();
         startDate.setLabel("Start date");
         startDate.setPattern("dd-MM-yyyy");
@@ -79,22 +79,6 @@ public class Option1 extends VerticalLayout {
     }
 
 
-//    private Grid resultsGrid() {
-//
-//        Grid<ColmenarViejoCSV> grid = new Grid<>(ColmenarViejoCSV.class, false);
-//        grid.addColumn(ColmenarViejoCSV::getIndicativo).setHeader("Indicativo");
-//        grid.addColumn(ColmenarViejoCSV::getFecha).setHeader("Fecha");
-//        grid.addColumn(ColmenarViejoCSV::getTmed).setHeader("Temperatura media");
-//        grid.addColumn(ColmenarViejoCSV::getHoratmax).setHeader("Hora Temp Max");
-//        grid.addColumn(ColmenarViejoCSV::getVelmedia).setHeader("Velocidad media");
-//        grid.addColumn(ColmenarViejoCSV::getRacha).setHeader("Racha");
-//        grid.addColumn(ColmenarViejoCSV::getSol).setHeader("Hora Sol");
-//
-//
-//        List<ColmenarViejoCSV> infoColmenarViejo = this.dataService.getDataOption1(this.datosCSV);
-//        grid.setItems(infoColmenarViejo);
-//
-//        return grid;
-//    }
+
 
 }
